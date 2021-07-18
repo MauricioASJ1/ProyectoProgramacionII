@@ -1,0 +1,51 @@
+.Image-content-1 {
+    background: url('/src/imagenes/img-home.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+.Section1-Container {
+    color:white;
+    padding: 200px 200px;
+    text-align: center;
+}
+
+.Section2-Container {
+    padding: 150px 150px;
+    text-align: center;
+}
+.Section3-Container {
+    text-align: center;
+}
+
+.espacio-3 {
+    padding: 100px 100px;
+}
+
+.img_1 {
+    height: 50px;
+}
+.img_1:hover {
+    position: relative;
+    margin-right: 200px;
+    transition: 1000ms;
+}
+
+.img_2 {
+    margin-top: 40px;
+    height: 50px;
+}
+.img_2:hover {
+    margin-right: 200px;
+    transition: 1000ms;
+}
+.img_3 {
+    margin-top: 40px;
+    height: 50px;
+}
+.img_3:hover {
+    margin-right: 200px;
+    transition: 1000ms;
+}
+.movimiento > p{
+    margin: -35px 0px 0px 300px;
+}
