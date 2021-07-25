@@ -9,7 +9,7 @@ function Inicio() {
           <h1>nuestra mano.</h1>
           <p>Desarrollo de software</p>
             <div className="Inicio-btns">
-                  <a className="nav-links-mobile-2" href="/Servicios">Contactenos</a>
+                  <a className="nav-links-mobile-2" href="/Contactanos">Contactenos</a>
             </div>
         </div>
 
@@ -30,8 +30,9 @@ function Inicio() {
         <p>Mantén el control de lo que quieres, añade partes a tu gusto</p>
         <p>y a tu presupuesto. Con Dev-bms siempre podrás evolucionar.</p>
           <div className="Inicio-btns">
-                <a className="nav-links-mobile-2" href="#">Conocozca más</a>
+                <a className="nav-links-mobile-2" href="/Servicios">Conocozca más</a>
           </div>
+          <div className="contenedor_imagen_gif"><img src="imagenes/creative.gif"/></div>
       </div>
 
       <div className="espacio">
@@ -74,6 +75,19 @@ function Inicio() {
                 <a className="nav-links-mobile-2" href="/Nosotros">Conocenos</a>
           </div>
       </div>
+
+          <div className="Contenedor_capsule">
+          <img src="imagenes/capsule_1.png"/>
+          <img src="imagenes/capsule_2.png"/>
+          <img src="imagenes/capsule_1.png"/>
+          <img src="imagenes/capsule_1.png"/>
+          <img src="imagenes/capsule_1.png"/>
+          <img src="imagenes/capsule_1.png"/>
+          <img src="imagenes/capsule_1.png"/>
+          <img src="imagenes/capsule_1.png"/>
+          <img src="imagenes/capsule_1.png"/>
+          </div>
+
         <div className="espacio-3">
 
         </div>

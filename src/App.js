@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/footer/footer";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Inicio from './components/pags/Nav-Inicio';
@@ -19,7 +20,7 @@ function App() {
         <Route path='/Metodología' exact component = {Metodología} />
         <Route path='/Nosotros' exact component = {Nosotros} />
       </Switch>
-    
+    <Footer/>
     </Router>
     </>
   );

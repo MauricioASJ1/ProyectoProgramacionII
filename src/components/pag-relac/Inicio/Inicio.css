@@ -1,17 +1,21 @@
 .img-container-1{
-    background: url('/src/imagenes/img-home.jpg') no-repeat;
+    background: url('/src/imagenes/fondo_inicio.jpg') no-repeat;
+    background-attachment: fixed;
     background-size: 100% 101%;
 }
 .img-container-2{
-    background: url('/src/imagenes/img-2.jpg') no-repeat;
+    background: url('/src/imagenes/fondo_generic.jpeg') no-repeat;
+    background-attachment: fixed;
     background-size: 100% 101%;
 }
 .img-container-3{
-    background: url('/src/imagenes/img-3.jpg') no-repeat;
+    background: url('/src/imagenes/fondo_inicio_2.jpg') no-repeat;
+    background-attachment: fixed;
     background-size: 100% 101%;
 }
 .img-container-4{
-    background: url('/src/imagenes/img-4.jpg') no-repeat;
+    background: url('/src/imagenes/fondo_generic.jpeg') no-repeat;
+    background-attachment: fixed;
     background-size: 100% 101%;
 }
         .S1-Container  {
@@ -19,15 +23,15 @@
             padding: 100px 100px;
         }
         .S2-Container  {
-            color: white;
+            color: black;
             padding: 100px 100px;
         }
         .S3-Container  {
-            color: white;
+            color: black;
             padding: 100px 100px;
         }
         .S4-Container  {
-            color: white;
+            color: black;
             padding: 100px 100px;
         }
 
@@ -79,11 +83,11 @@
     font-weight: bold;
 }
 .espacio {
-    padding-top: 250px;
+    padding-top: 120px;
 }
 
 .espacio-2 {
-    padding-top: 800px;
+    padding-top: 600px;
 }
 
 .espacio-3{
@@ -92,6 +96,30 @@
 
 .nav-links-mobile-2 {
     display: none;
+}
+
+.contenedor_imagen_gif{
+    margin-left:60% ;
+    margin-top:-30% ;
+
+}
+
+.Contenedor_capsule > img{
+    height: 100px;
+}
+
+.Contenedor_capsule{
+    margin-left:60% ;
+    margin-top:-30% ;
+    margin-bottom:60px ;
+
+    width: 30%;
+    max-width: 60%;
+    min-width: 20%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 @media screen{

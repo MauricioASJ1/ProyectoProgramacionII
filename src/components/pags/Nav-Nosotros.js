@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../App.css'
-import Inicio from '../pag-relac/Inicio/Inicio'
+import Nos from '../pag-relac/nosotros/Nosotros.js';
 
 function Nosotros () {
     return(
         <>
-        <Inicio/>
+        <Nos/>
         </>
     )
 

@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../App.css'
-import Inicio from '../pag-relac/Inicio/Inicio'
+import Contact from '../pag-relac/Contactanos/Contactanos'
 
 function Contactanos () {
     return(
         <>
-        <Inicio/>
+        <Contact/>
         </>
     )
 

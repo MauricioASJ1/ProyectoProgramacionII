@@ -1,6 +1,7 @@
+
 .NavbarItems {
-    background: linear-gradient(90deg, rgb(110, 94, 254) 0%, rgba(73,63,252,1) 100%);
-    height: 80px;
+    background: linear-gradient(90deg, rgb(2, 184, 153) 0%, rgb(0, 51, 71) 100%);
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +64,7 @@ cursor: pointer;
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 500px;
+        height: 530px;
         position: absolute;
         left: 0;
         top: -700%;
@@ -72,11 +73,11 @@ cursor: pointer;
     }
 
     .nav-menu.active {
-        background: #6668f4;
+        background: #005a5a;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
-        z-index: 1;
+        z-index: 1000;
     }
 
     .nav-links {
@@ -87,7 +88,7 @@ cursor: pointer;
     }
 
     .nav-links:hover {
-        background-color: #7577fa;
+        background-color: #033e55;
         border-radius: 0;
     }
 
@@ -119,8 +120,8 @@ cursor: pointer;
         padding: 1.5rem;
         margin: 2rem auto;
         border-radius: 4px;
-        width: 80%;
-        background: #4ad9e4;
+        width: 60%;
+        background: #3b797c;
         text-decoration: none;
         color: #fff;
         font-size: 1.5rem;
@@ -128,7 +129,7 @@ cursor: pointer;
 
     .nav-links-mobile:hover {
         background: #fff;
-        color: #6568f4;
+        color: #01383f;
         transition: 250ms;
     }
 

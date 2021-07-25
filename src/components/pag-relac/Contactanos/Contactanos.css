@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #e5e5e5;
+}
+
+main{
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+}
+
+.Titulo{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.Fondo{
+    background: url('/src/imagenes/fondo_generic.jpeg') no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}

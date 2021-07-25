@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../App.css'
-import Inicio from '../pag-relac/Inicio/Inicio'
+import Serv from '../pag-relac/Servicios/Servicios'
 
 function Servicios () {
     return(
         <>
-        <Inicio/>
+        <Serv/>
         </>
     )
 

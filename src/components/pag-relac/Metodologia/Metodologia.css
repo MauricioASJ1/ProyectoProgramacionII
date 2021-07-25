@@ -1,5 +1,12 @@
 .Image-content-1 {
-    background: url('/src/imagenes/img-home.jpg') no-repeat;
+    background: url('/src/imagenes/fondo_inicio_3.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.Container{
+    background: url('/src/imagenes/fondo_generic.jpeg') no-repeat;
+    background-attachment: fixed;
     background-size: 100% 100%;
 }
 
@@ -7,6 +14,14 @@
     color:white;
     padding: 200px 200px;
     text-align: center;
+}
+
+.Section1-Container > h1 {
+    color:rgb(1, 73, 58);;
+    font-size: 100px;
+}
+.Section1-Container > p {
+    font-size: 50px;
 }
 
 .Section2-Container {
@@ -21,31 +36,37 @@
     padding: 100px 100px;
 }
 
+.pos_1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
 .img_1 {
-    height: 50px;
+    height: 100px;
 }
 .img_1:hover {
-    position: relative;
-    margin-right: 200px;
-    transition: 1000ms;
+    height: 150px;
+    transition: 250ms;
 }
 
 .img_2 {
-    margin-top: 40px;
-    height: 50px;
+    height: 100px;
 }
 .img_2:hover {
-    margin-right: 200px;
-    transition: 1000ms;
+    height: 150px;
+    transition: 250ms;
 }
 .img_3 {
-    margin-top: 40px;
-    height: 50px;
+    height: 100px;
 }
 .img_3:hover {
-    margin-right: 200px;
-    transition: 1000ms;
+    height: 150px;
+    transition: 250ms;
 }
-.movimiento > p{
-    margin: -35px 0px 0px 300px;
+
+.Section3-Container > h1 {
+    margin-bottom: 50px;
 }
+
